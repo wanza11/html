@@ -1,17 +1,17 @@
 {
   "particles": {
     "number": {
-      "value": 60,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#FFFFFF"
+      "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -26,8 +26,8 @@
       }
     },
     "opacity": {
-      "value": 100,
-      "random": false,
+      "value": 0.6865584482200772,
+      "random": true,
       "anim": {
         "enable": false,
         "speed": 1,
@@ -36,27 +36,27 @@
       }
     },
     "size": {
-      "value": 3,
+      "value": 260.5544598906475,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 20,
-        "size_min": 0.1,
+        "speed": 112.06665529758563,
+        "size_min": 97.44926547616141,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.8,
-      "width": 1
+      "color": "#5a43a7",
+      "opacity": 0.41035677364878176,
+      "width": 11.995044152810546
     },
     "move": {
       "enable": true,
-      "speed": 4,
+      "speed": 6,
       "direction": "none",
-      "random": true,
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -72,7 +72,7 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
@@ -99,7 +99,7 @@
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 10
+        "particles_nb": 4
       },
       "remove": {
         "particles_nb": 2
